@@ -1,5 +1,8 @@
 To run the mymongo container:
 
-	$git clone https://github.com/ozlerhakan/mongo-compose.git
-        $docker-compose up -d
+	$ git clone https://github.com/ozlerhakan/mongo-compose.git
+	$ cd mongo-compose
+	$ docker-compose up -d
+	$ docker ps
+	$ docker logs mymongo
 
