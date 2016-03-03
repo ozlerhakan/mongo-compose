@@ -1,0 +1,7 @@
+version: '2'
+services:
+    db:
+        container_name: mymongo
+        build: ./mongo
+        ports: 
+        - "27017:27017"
